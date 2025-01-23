@@ -123,16 +123,18 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
         jpanelRound7.setRoundTopLeft(25);
         jpanelRound7.setRoundTopRight(25);
 
-        jpanelRound6.setBackground(new java.awt.Color(134, 217, 223));
+        jpanelRound6.setBackground(new java.awt.Color(255, 255, 102));
         jpanelRound6.setRoundBottomLeft(25);
         jpanelRound6.setRoundBottomRight(25);
         jpanelRound6.setRoundTopLeft(25);
         jpanelRound6.setRoundTopRight(25);
 
         jLabel11.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Usuarios");
 
         txtcantUsuarios.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtcantUsuarios.setForeground(new java.awt.Color(255, 255, 255));
         txtcantUsuarios.setText("0");
 
         javax.swing.GroupLayout jpanelRound6Layout = new javax.swing.GroupLayout(jpanelRound6);
@@ -142,12 +144,12 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
             .addGroup(jpanelRound6Layout.createSequentialGroup()
                 .addGroup(jpanelRound6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jpanelRound6Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
+                        .addGap(63, 63, 63)
                         .addComponent(jLabel11))
                     .addGroup(jpanelRound6Layout.createSequentialGroup()
-                        .addGap(90, 90, 90)
+                        .addGap(96, 96, 96)
                         .addComponent(txtcantUsuarios)))
-                .addContainerGap(84, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
         jpanelRound6Layout.setVerticalGroup(
             jpanelRound6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -159,16 +161,19 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                 .addContainerGap(15, Short.MAX_VALUE))
         );
 
-        jpanelRound1.setBackground(new java.awt.Color(134, 184, 223));
+        jpanelRound1.setBackground(new java.awt.Color(0, 102, 0));
+        jpanelRound1.setForeground(new java.awt.Color(255, 255, 255));
         jpanelRound1.setRoundBottomLeft(25);
         jpanelRound1.setRoundBottomRight(25);
         jpanelRound1.setRoundTopLeft(25);
         jpanelRound1.setRoundTopRight(25);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Categorias");
 
         txtCantCat.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtCantCat.setForeground(new java.awt.Color(255, 255, 255));
         txtCantCat.setText("0");
 
         javax.swing.GroupLayout jpanelRound1Layout = new javax.swing.GroupLayout(jpanelRound1);
@@ -195,16 +200,18 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        jpanelRound2.setBackground(new java.awt.Color(233, 82, 106));
+        jpanelRound2.setBackground(new java.awt.Color(204, 255, 102));
         jpanelRound2.setRoundBottomLeft(25);
         jpanelRound2.setRoundBottomRight(25);
         jpanelRound2.setRoundTopLeft(25);
         jpanelRound2.setRoundTopRight(25);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Clientes");
 
         txtcantClientes.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtcantClientes.setForeground(new java.awt.Color(255, 255, 255));
         txtcantClientes.setText("0");
 
         javax.swing.GroupLayout jpanelRound2Layout = new javax.swing.GroupLayout(jpanelRound2);
@@ -212,14 +219,13 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
         jpanelRound2Layout.setHorizontalGroup(
             jpanelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpanelRound2Layout.createSequentialGroup()
-                .addGroup(jpanelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jpanelRound2Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(jLabel3))
-                    .addGroup(jpanelRound2Layout.createSequentialGroup()
-                        .addGap(78, 78, 78)
-                        .addComponent(txtcantClientes)))
-                .addContainerGap(89, Short.MAX_VALUE))
+                .addGap(98, 98, 98)
+                .addComponent(txtcantClientes)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelRound2Layout.createSequentialGroup()
+                .addContainerGap(71, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(61, 61, 61))
         );
         jpanelRound2Layout.setVerticalGroup(
             jpanelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -231,16 +237,21 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        jpanelRound3.setBackground(new java.awt.Color(50, 181, 77));
+        jpanelRound3.setBackground(new java.awt.Color(51, 255, 51));
+        jpanelRound3.setForeground(new java.awt.Color(255, 255, 255));
         jpanelRound3.setRoundBottomLeft(25);
         jpanelRound3.setRoundBottomRight(25);
         jpanelRound3.setRoundTopLeft(25);
         jpanelRound3.setRoundTopRight(25);
 
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Entradas");
 
+        txtcantEntradas.setBackground(new java.awt.Color(255, 255, 255));
         txtcantEntradas.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtcantEntradas.setForeground(new java.awt.Color(255, 255, 255));
         txtcantEntradas.setText("0");
 
         javax.swing.GroupLayout jpanelRound3Layout = new javax.swing.GroupLayout(jpanelRound3);
@@ -248,14 +259,14 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
         jpanelRound3Layout.setHorizontalGroup(
             jpanelRound3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpanelRound3Layout.createSequentialGroup()
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addGroup(jpanelRound3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jpanelRound3Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(jLabel5))
-                    .addGroup(jpanelRound3Layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(txtcantEntradas)))
-                .addContainerGap(83, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelRound3Layout.createSequentialGroup()
+                        .addComponent(jLabel5)
+                        .addGap(60, 60, 60))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelRound3Layout.createSequentialGroup()
+                        .addComponent(txtcantEntradas)
+                        .addGap(98, 98, 98))))
         );
         jpanelRound3Layout.setVerticalGroup(
             jpanelRound3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -267,16 +278,18 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        jpanelRound4.setBackground(new java.awt.Color(240, 195, 117));
+        jpanelRound4.setBackground(new java.awt.Color(255, 255, 51));
         jpanelRound4.setRoundBottomLeft(25);
         jpanelRound4.setRoundBottomRight(25);
         jpanelRound4.setRoundTopLeft(25);
         jpanelRound4.setRoundTopRight(25);
 
         jLabel7.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Proveedores");
 
         txtcantproveedores.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtcantproveedores.setForeground(new java.awt.Color(255, 255, 255));
         txtcantproveedores.setText("0");
 
         javax.swing.GroupLayout jpanelRound4Layout = new javax.swing.GroupLayout(jpanelRound4);
@@ -303,16 +316,21 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        jpanelRound5.setBackground(new java.awt.Color(141, 134, 223));
+        jpanelRound5.setBackground(new java.awt.Color(51, 204, 0));
+        jpanelRound5.setForeground(new java.awt.Color(255, 255, 255));
         jpanelRound5.setRoundBottomLeft(25);
         jpanelRound5.setRoundBottomRight(25);
         jpanelRound5.setRoundTopLeft(25);
         jpanelRound5.setRoundTopRight(25);
 
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
         jLabel9.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Salidas");
 
+        txtcantSalidas.setBackground(new java.awt.Color(255, 255, 255));
         txtcantSalidas.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        txtcantSalidas.setForeground(new java.awt.Color(255, 255, 255));
         txtcantSalidas.setText("0");
 
         javax.swing.GroupLayout jpanelRound5Layout = new javax.swing.GroupLayout(jpanelRound5);
@@ -320,19 +338,18 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
         jpanelRound5Layout.setHorizontalGroup(
             jpanelRound5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpanelRound5Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
                 .addGroup(jpanelRound5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9)
                     .addGroup(jpanelRound5Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(jLabel9))
-                    .addGroup(jpanelRound5Layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
+                        .addGap(24, 24, 24)
                         .addComponent(txtcantSalidas)))
-                .addContainerGap(94, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
         jpanelRound5Layout.setVerticalGroup(
             jpanelRound5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpanelRound5Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
+                .addGap(15, 15, 15)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtcantSalidas)
@@ -373,10 +390,10 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
                         .addComponent(jpanelRound4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jpanelRound3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)
-                .addGroup(jpanelRound7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jpanelRound5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jpanelRound6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(389, Short.MAX_VALUE))
+                .addGroup(jpanelRound7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jpanelRound6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jpanelRound5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(377, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -390,7 +407,10 @@ DefaultTableModel modeloProdF=new DefaultTableModel();
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jpanelRound7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jpanelRound7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 

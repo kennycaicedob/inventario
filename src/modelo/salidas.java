@@ -17,7 +17,7 @@ String estado;
     public salidas() {
     }
 
-    public salidas(int idSalida, String numSalida, int idCliente, Date fecha, double subtotal, double igv, double total,String estado) {
+    public salidas(int idSalida, String numSalida, int idCliente, Date fecha, double subtotal, double igv, double total, String estado) {
         this.idSalida = idSalida;
         this.numSalida = numSalida;
         this.idCliente = idCliente;

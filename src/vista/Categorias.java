@@ -149,7 +149,7 @@ public class Categorias extends javax.swing.JPanel {
                 .addContainerGap(24, Short.MAX_VALUE))
         );
 
-        btnGuardar.setBackground(new java.awt.Color(14, 76, 117));
+        btnGuardar.setBackground(new java.awt.Color(51, 51, 51));
         btnGuardar.setText("Guardar");
         btnGuardar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnGuardar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.SAVE);
@@ -160,7 +160,7 @@ public class Categorias extends javax.swing.JPanel {
             }
         });
 
-        btnEditar.setBackground(new java.awt.Color(14, 76, 117));
+        btnEditar.setBackground(new java.awt.Color(102, 102, 102));
         btnEditar.setText("Editar");
         btnEditar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnEditar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.EDIT);
@@ -171,7 +171,7 @@ public class Categorias extends javax.swing.JPanel {
             }
         });
 
-        btnEliminar.setBackground(new java.awt.Color(14, 76, 117));
+        btnEliminar.setBackground(new java.awt.Color(102, 102, 102));
         btnEliminar.setText("Eliminar");
         btnEliminar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnEliminar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.DELETE);
@@ -182,7 +182,7 @@ public class Categorias extends javax.swing.JPanel {
             }
         });
 
-        btnBuscar.setBackground(new java.awt.Color(14, 76, 117));
+        btnBuscar.setBackground(new java.awt.Color(102, 102, 102));
         btnBuscar.setText("Buscar");
         btnBuscar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnBuscar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.SEARCH);
@@ -194,10 +194,10 @@ public class Categorias extends javax.swing.JPanel {
         });
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(50, 130, 181));
+        jLabel4.setForeground(new java.awt.Color(153, 153, 153));
         jLabel4.setText("Complete la Informacion de las Categorias.");
 
-        btnGuardar1.setBackground(new java.awt.Color(14, 76, 117));
+        btnGuardar1.setBackground(new java.awt.Color(51, 51, 51));
         btnGuardar1.setBackgroundHover(new java.awt.Color(14, 76, 117));
         btnGuardar1.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.DASHBOARD);
         btnGuardar1.setRound(25);
@@ -215,13 +215,15 @@ public class Categorias extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(layout.createSequentialGroup()
-                            .addGap(38, 38, 38)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jpanelRound1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addGap(6, 6, 6)
-                                    .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGap(18, 18, 18)
+                                    .addGap(38, 38, 38)
+                                    .addComponent(jpanelRound1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addContainerGap()
+                                    .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(56, 56, 56)))
                             .addComponent(jpanelRound2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createSequentialGroup()
                             .addGap(327, 327, 327)

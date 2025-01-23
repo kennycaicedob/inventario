@@ -100,9 +100,8 @@ public class Productos extends javax.swing.JPanel {
         btnEditar = new RSMaterialComponent.RSButtonMaterialIconDos();
         btnEliminar = new RSMaterialComponent.RSButtonMaterialIconDos();
         btnBuscar = new RSMaterialComponent.RSButtonMaterialIconDos();
-        btnPdf = new RSMaterialComponent.RSButtonMaterialIconDos();
 
-        btnicono.setBackground(new java.awt.Color(14, 76, 117));
+        btnicono.setBackground(new java.awt.Color(51, 51, 51));
         btnicono.setBackgroundHover(new java.awt.Color(14, 76, 117));
         btnicono.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.GROUP);
         btnicono.setRound(25);
@@ -116,7 +115,7 @@ public class Productos extends javax.swing.JPanel {
         jLabel1.setText("Registro De Productos");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(50, 130, 181));
+        jLabel4.setForeground(new java.awt.Color(153, 153, 153));
         jLabel4.setText("Complete la Informacion de los Productos.");
 
         jpanelRound1.setBackground(new java.awt.Color(255, 255, 255));
@@ -137,7 +136,7 @@ public class Productos extends javax.swing.JPanel {
 
         jLabel8.setText("Precio. V");
 
-        btnBuscaCategoria.setBackground(new java.awt.Color(14, 76, 117));
+        btnBuscaCategoria.setBackground(new java.awt.Color(51, 51, 51));
         btnBuscaCategoria.setBackgroundHover(new java.awt.Color(14, 76, 117));
         btnBuscaCategoria.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.SEARCH);
         btnBuscaCategoria.setRound(25);
@@ -174,8 +173,8 @@ public class Productos extends javax.swing.JPanel {
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpanelRound1Layout.createSequentialGroup()
                                     .addComponent(txtidCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGap(18, 18, 18)))
-                            .addComponent(btnBuscaCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(81, 81, 81))))
+                            .addComponent(btnBuscaCategoria, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(87, 87, 87))))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
         jpanelRound1Layout.setVerticalGroup(
@@ -238,8 +237,8 @@ public class Productos extends javax.swing.JPanel {
             jpanelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpanelRound2Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 591, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 522, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(29, Short.MAX_VALUE))
         );
         jpanelRound2Layout.setVerticalGroup(
             jpanelRound2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -249,7 +248,8 @@ public class Productos extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnGuardar2.setBackground(new java.awt.Color(14, 76, 117));
+        btnGuardar2.setBackground(new java.awt.Color(51, 51, 51));
+        btnGuardar2.setBorder(null);
         btnGuardar2.setText("Guardar");
         btnGuardar2.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnGuardar2.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.SAVE);
@@ -260,7 +260,8 @@ public class Productos extends javax.swing.JPanel {
             }
         });
 
-        btnEditar.setBackground(new java.awt.Color(14, 76, 117));
+        btnEditar.setBackground(new java.awt.Color(51, 51, 51));
+        btnEditar.setBorder(null);
         btnEditar.setText("Editar");
         btnEditar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnEditar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.EDIT);
@@ -271,7 +272,8 @@ public class Productos extends javax.swing.JPanel {
             }
         });
 
-        btnEliminar.setBackground(new java.awt.Color(14, 76, 117));
+        btnEliminar.setBackground(new java.awt.Color(51, 51, 51));
+        btnEliminar.setBorder(null);
         btnEliminar.setText("Eliminar");
         btnEliminar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnEliminar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.DELETE);
@@ -282,7 +284,8 @@ public class Productos extends javax.swing.JPanel {
             }
         });
 
-        btnBuscar.setBackground(new java.awt.Color(14, 76, 117));
+        btnBuscar.setBackground(new java.awt.Color(51, 51, 51));
+        btnBuscar.setBorder(null);
         btnBuscar.setText("Buscar");
         btnBuscar.setBackgroundHover(new java.awt.Color(50, 130, 181));
         btnBuscar.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.SEARCH);
@@ -290,16 +293,6 @@ public class Productos extends javax.swing.JPanel {
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBuscarActionPerformed(evt);
-            }
-        });
-
-        btnPdf.setBackground(new java.awt.Color(213, 137, 137));
-        btnPdf.setBackgroundHover(new java.awt.Color(14, 76, 117));
-        btnPdf.setIcons(rojeru_san.efectos.ValoresEnum.ICONS.INSERT_DRIVE_FILE);
-        btnPdf.setRound(25);
-        btnPdf.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnPdfActionPerformed(evt);
             }
         });
 
@@ -320,18 +313,17 @@ public class Productos extends javax.swing.JPanel {
                         .addGap(21, 21, 21)
                         .addComponent(jpanelRound1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
+                        .addGap(66, 66, 66)
                         .addComponent(btnGuardar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
                         .addComponent(btnEditar, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnPdf, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jpanelRound2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
@@ -349,15 +341,13 @@ public class Productos extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jpanelRound1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jpanelRound2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(32, 32, 32)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnEditar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btnPdf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(70, 70, 70))
+                    .addComponent(btnEditar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -463,11 +453,6 @@ public class Productos extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_btnBuscarActionPerformed
 
-    private void btnPdfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPdfActionPerformed
-        // TODO add your handling code here:
-       GenerarPDF("reporteProductos");
-    }//GEN-LAST:event_btnPdfActionPerformed
-
     private void btnBuscaCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscaCategoriaActionPerformed
         // TODO add your handling code here:
         BuscarDato.tipo=true;
@@ -513,7 +498,6 @@ void GenerarPDF(String reporte){
     private RSMaterialComponent.RSButtonMaterialIconDos btnEditar;
     private RSMaterialComponent.RSButtonMaterialIconDos btnEliminar;
     private RSMaterialComponent.RSButtonMaterialIconDos btnGuardar2;
-    private RSMaterialComponent.RSButtonMaterialIconDos btnPdf;
     private RSMaterialComponent.RSButtonMaterialIconDos btnicono;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
